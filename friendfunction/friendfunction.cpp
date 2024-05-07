@@ -9,7 +9,7 @@ public:
 	friend void setNama(mahasiswa& a, string);
 };
 
-void setnama(mahasiswa& a, string pNama) {
+void setNama(mahasiswa &a,string pNama){
 	a.nama = pNama;
 }
 
@@ -17,9 +17,8 @@ void setnama(mahasiswa& a, string pNama) {
 
 int main()
 {
- 
-
-
-
+	mahasiswa joko;
+	setNama(joko, "kairi kumar");
+	return 0;
 }
 
