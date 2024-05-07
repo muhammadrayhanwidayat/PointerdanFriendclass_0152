@@ -25,6 +25,9 @@ void manusia::showNilaiPelajar(pelajar& x) {
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    manusia budi;
+    pelajar pbudi;
+    budi.showNilaiPelajar(pbudi);
+    return 0;
 }
 
