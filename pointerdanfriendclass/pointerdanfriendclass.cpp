@@ -12,6 +12,7 @@ public:
 
 int main()
 {
-
+	mahasiswa mhs{ 1 };//object mhs
+	mhs.showNIM();//membee access operator
 }
 
